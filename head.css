@@ -1,0 +1,12 @@
+@charset "utf-8";
+html,body{margin: 0;padding: 0;}
+body *{outline: 1px solid black;}
+ul,ol{list-style: none;}
+.head{width: 100%;height: 300px;}
+.logo{width: 100%;height: 200px;}
+.navi{width: 100%;height: 100px;}
+.navi ul{display: flex;justify-content: space-evenly;width: 100%;height: 100%;margin: 0;padding: 0;}
+.navi ul li{width: 20%;height: 100%;padding: auto;display: flex;justify-content: center;align-items: center;}
+.navi ul li a{color: #000;text-decoration: none;}
+.navi ul li:hover{cursor: pointer;background-color: red;transition: background-color 1s;}
+.navi ul li:hover a{font-weight: bold;color: white;transition:  .3s;}
