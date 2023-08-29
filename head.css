@@ -1,9 +1,10 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Noto+Sans+KR&family=Pacifico&display=swap');
 html,body{margin: 0;padding: 0;}
 body *{outline: 1px solid black;}
 ul,ol{list-style: none;}
 .head{width: 100%;height: 300px;}
-.logo{width: 100%;height: 200px;}
+.logo{width: 100%;height: 200px;display: flex;justify-content: center;align-items: center;font-size: 100px;font-family: 'Courgette', cursive;}
 .navi{width: 100%;height: 100px;}
 .navi ul{display: flex;justify-content: space-evenly;width: 100%;height: 100%;margin: 0;padding: 0;}
 .navi ul li{width: 20%;height: 100%;padding: auto;display: flex;justify-content: center;align-items: center;}
