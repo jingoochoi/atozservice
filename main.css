@@ -1,6 +1,6 @@
 @charset "utf-8";
 .main{width: 100%;min-height: 1000px;display: flex;flex-wrap: wrap;}
-.ctt1{width: 50%;min-height: 500px;display: flex;justify-content: center;align-items: center;}
-.ctt2{width: 50%;min-height: 500px;display: flex;justify-content: center;align-items: center;}
-.ctt3{width: 50%;min-height: 500px;display: flex;justify-content: center;align-items: center;}
-.ctt4{width: 50%;min-height: 500px;display: flex;justify-content: center;align-items: center;}
+.ctt1{width: 50%;min-height: 500px;display: flex;justify-content: center;align-items: center;flex-direction: column;text-align: center;}
+.ctt2{width: 50%;min-height: 500px;display: flex;justify-content: center;align-items: center;flex-direction: column;text-align: center;}
+.ctt3{width: 50%;min-height: 500px;display: flex;justify-content: center;align-items: center;flex-direction: column;text-align: center;}
+.ctt4{width: 50%;min-height: 500px;display: flex;justify-content: center;align-items: center;flex-direction: column;text-align: center;}
