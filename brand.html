@@ -44,5 +44,14 @@
             <br>전화 : 1600-5649
             <br>팩스 : 02-6340-1701</p>
     </div>
+    <script>
+        window.addEventListener('wheel',wft)
+        function wft(e) {
+            // console.log(e.wheelDelta)
+            let dt=e.wheelDelta
+            if(dt<0)window.scrollTo(0,window.innerHeight)
+            else window.scrollTo(0,-window.innerHeight)
+        }
+    </script>
 </body>
 </html>
