@@ -13,3 +13,9 @@ ul,ol{list-style: none;}
 .navi ul li:hover a{color: red;border-bottom: 1px solid red;}
 .navi ul li:first-of-type:hover a{cursor: default;border-bottom: 0;}
 /* .navi ul li:hover a::after{content: '';display: block;width: 100%;height: 1px;background-color: red;} */
+/* .ctt2 h1{text-align: left;} */
+.ctt3,.ctt4{opacity: 0;}
+.ctt2 p{text-align: left;}
+.ctt4 table{text-align: left;}
+.ctt4 table tr td:last-child{padding-left: 30px;}
+.on{opacity: 1;transition: opacity 1s linear .3s;}
